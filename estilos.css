@@ -87,11 +87,16 @@ En esta sección solo se hace uso de identificadores únicos pues el formato no 
 /*SECCION 3: CURSOS IMPARTIDOS
 A lo largo de la sección se usarán clases pues los formatos se repitiran*/
 
-
+.titulosdecontenedores{
+text-align: center;
+}
 .contenedor{
     background-color: #4f7caa;
     max-width: 85%;
     margin: auto;
+    border: 2px solid #06337a;
+    border-radius: 10px;
+    text-align: justify;
 }
 
 .contenidodelcontenedor{
