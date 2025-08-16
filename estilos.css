@@ -117,6 +117,20 @@ A lo largo de la sección se usarán clases pues los formatos se repitiran*/
 }
 
 
+/*SECCIÓN 4: FOOTER*/
+footer{
+    background-color: #151515;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    color: #b7b3b8;
+}
+
+
+
+
 
 
 /*ESTILOS RESPONSIVOS*/
@@ -148,7 +162,7 @@ A lo largo de la sección se usarán clases pues los formatos se repitiran*/
     }
 
     .contenedor{
-        flex-direction: column-reverse;
+        flex-direction: column-reverse ;
     }
 
     
