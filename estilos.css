@@ -1,0 +1,75 @@
+/*Selector universal de estilos en el codigo para poder tener un control total en el contenido, los cuales hacen más sencillo el manejo del contenido*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/*Estos estilos abarcan todo el contenido, solo es el color de fondo en general, color de letra y tipo de letra en el orden mencionado*/
+body{
+    background-color: #b7b3b8;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+/*SECCIÓN 1: ENCABEZADO ADHERIDO A LA PARTE SUPERIOR DE LA PÁGINA*/
+
+
+/*(Se hace uso de un selector directo) Son los estilos para el encabezado que gracias al "sticky" quedará adherido a la parte superior de la página, cubre el área total del encabezado el cual tendrá un ancho equialente al 100% disponible*/ 
+header{
+    background-color: #151515;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    color: #b7b3b8;
+}
+
+/*(Se hace uso de un selector por clase) Contenedor más pequeño el cual nos ayuda a delimitar el ancho en el que se distribuirá el texto escrito*/
+.encabezado{
+    max-width: 90%;
+    margin: auto;
+}
+
+/*(Se hace uso e un selector por clase) Contenedor por el cual se especificarán las caracteristícas del texto*/
+.contenidodelencabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+
+/*SECCION 2: PRESENTACIÓN
+En esta sección solo se hace uso de identificadores únicos pues el formato no se repite a lo largo de lapágina*/
+
+
+/*Se ajusta el area total que abarcará la presentación*/
+#presentacion{
+    background-color: #020121;
+    width: 100%;
+    height: 700px;
+}
+
+/*Contenedor más pequeño el cual nos ayuda a delimitar el ancho en el que se distribuirá el texto escrito*/
+#borde{
+    max-width: 80%;
+    margin: auto;
+}
+
+#contenidodelapresentacion{
+    display: flex;
+    padding: 50px 0;
+}
+
+#columna1delapresentacion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 2;
+    color: white;
+    justify-content: center;
+}
