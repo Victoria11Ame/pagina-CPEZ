@@ -115,3 +115,41 @@ A lo largo de la sección se usarán clases pues los formatos se repitiran*/
     flex: 1;
     overflow: hidden;
 }
+
+
+
+
+/*ESTILOS RESPONSIVOS*/
+
+/*Primer breakpoint*/
+@media screen and (max-width:992px){
+    #contenidodelapresentacion{
+    display: flex;
+    padding: 50px 0;
+    flex-direction: column-reverse;
+    }
+
+    #columna2delapresentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    }
+}
+
+/*Segundo breakpoint*/
+@media screen and (max-width:576px){
+    #contenidodelapresentacion{
+    display: flex;
+    padding: 50px 0;
+    flex-direction: column-reverse;
+    }
+
+    .contenedor{
+        flex-direction: column-reverse;
+    }
+
+    
+}
