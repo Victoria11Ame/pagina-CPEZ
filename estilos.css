@@ -14,6 +14,9 @@ body{
 }
 
 
+
+
+
 /*SECCIÓN 1: ENCABEZADO ADHERIDO A LA PARTE SUPERIOR DE LA PÁGINA*/
 
 
@@ -41,6 +44,9 @@ header{
     align-items: center;
     padding: 30px 0;
 }
+
+
+
 
 
 /*SECCION 2: PRESENTACIÓN
@@ -72,4 +78,40 @@ En esta sección solo se hace uso de identificadores únicos pues el formato no 
     flex: 2;
     color: white;
     justify-content: center;
+}
+
+
+
+
+
+/*SECCION 3: CURSOS IMPARTIDOS
+A lo largo de la sección se usarán clases pues los formatos se repitiran*/
+
+
+.contenedor{
+    background-color: #4f7caa;
+    max-width: 85%;
+    margin: auto;
+}
+
+.contenidodelcontenedor{
+    display: flex;
+    padding: 50px 50px;
+}
+
+.col-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 2;
+    justify-content: center; 
+}
+
+.col-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    overflow: hidden;
 }
