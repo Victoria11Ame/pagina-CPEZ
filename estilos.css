@@ -161,8 +161,9 @@ footer{
     flex-direction: column-reverse;
     }
 
-    .contenedor{
+    .contenidodelcontenedor{
         flex-direction: column-reverse ;
+        gap: 30px;
     }
 
     
